@@ -85,7 +85,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         imageArray = []
         
         DispatchQueue.global(qos: .background).async {
-            print("This is run on the background queue")
+            print("This is a test change")
             let imgManager=PHImageManager.default()
             
             let requestOptions=PHImageRequestOptions()
@@ -115,6 +115,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             }
         }
     }
+    //test commit
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
